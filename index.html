@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penny Flip Game</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <H1>Penny Flip Game</H1>
         <div>
-            <div>Penny Image Display, Button Controls, and Status Message</div>
+            <div><img id="penny-image" src="./assets/images/penny-heads.jpg" alt="image of coin result = heads"></div>
+            <div class ="controls">
+                <button id="flip">Flip The Penny!</button>
+                <button id="clear">Clear Scoreboard</button>
+            </div>
+            <div><h2 id="message">Let's Get Rolling</h2></div>
             <hr>
             <div>
                 <h2>Scoreboard</h2>
